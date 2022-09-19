@@ -5,6 +5,7 @@ set -e
 
 # 앱 빌드
 npm run build
+cp dist/index.html dist/404.html
 
 # 빌드된 파일이 존재하는 dist 디렉터리로 이동
 # cd dist

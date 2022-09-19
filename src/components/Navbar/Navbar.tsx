@@ -16,7 +16,7 @@ import {
 	OpenMenu,
 } from "./styled";
 
-const LOGO_IMG = "/assets/images/logo.png";
+const LOGO_IMG = "./assets/images/logo.png";
 
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);

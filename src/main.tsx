@@ -17,11 +17,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 		{/* ReactQuery DevTools */}
 		{/* <ReactQueryDevtools initialIsOpen={false} /> */}
 		<RecoilRoot>
-			<HashRouter basename={Config.BASE_URL}>
+			<BrowserRouter basename={Config.BASE_URL}>
 				<ThemeProvider theme={theme}>
 					<App />
 				</ThemeProvider>
-			</HashRouter>
+			</BrowserRouter>
 		</RecoilRoot>
 	</QueryClientProvider>
 );

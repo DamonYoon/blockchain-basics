@@ -14,7 +14,7 @@ function App() {
 			<Navbar />
 			<MainContainer>
 				<Routes>
-					<Route path="/">
+					<Route path="/*">
 						<Route index element={<HomePage />} />
 						<Route path="hash" element={<HashPage />} />
 						<Route path="block" element={<BlockPage />} />

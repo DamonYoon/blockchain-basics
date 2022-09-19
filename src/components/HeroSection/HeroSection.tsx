@@ -12,7 +12,7 @@ import {
 	HoverIcon,
 	TextWrap,
 } from "./styled";
-const HOME_IMG = "/assets/images/home_background.png";
+const HOME_IMG = "./assets/images/home_background.png";
 
 const HeroSection = () => {
 	const [isBtnHover, setIsBtnHover] = useState(false);
