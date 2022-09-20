@@ -51,7 +51,7 @@ const Navbar = () => {
 						<LogoImgBox>
 							<LogoImg src={LOGO_IMG} />
 						</LogoImgBox>
-						<LogoH1>SOKURI_CODE</LogoH1>
+						<LogoH1>Luniverse</LogoH1>
 					</Logo>
 
 					{/* Button to open menu */}

@@ -71,9 +71,9 @@ const Footer = () => {
 				</LinkContainer>
 				<SocialMedia>
 					<SocialMediaWrapper>
-						<SocialLogo to="/" onClick={toggleHome}>SOKURI_CODE</SocialLogo>
+						<SocialLogo to="/" onClick={toggleHome}>Luniverse</SocialLogo>
 						<WebsiteRights>
-							SOKURI_CODE © {new Date().getFullYear()} All rights reserved.
+							Luniverse © {new Date().getFullYear()} All rights reserved.
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink href="" target="_blank" aria-label="Instagram">
